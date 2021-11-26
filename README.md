@@ -4,10 +4,13 @@ This class has three primary usages. It can intake a file to encrypt the message
 How to run program
 
 Encrypt text file
+
 python3.8 TextFileEDC.py -e {textfile name} {shift amount} {new textfile name}
 
 Decrypt text file
+
 python3.8 TextFileEDC.py -d {textfile name} {shift amount} {new textfile name}
 
 Crack text file
+
 python3.8 TextFileEDC.py -c {textfile name}
